@@ -1,5 +1,8 @@
-package br.com.tecloja.api.exeption;
+package br.com.tecloja.api.exception;
 
-public class ResourceNotFoundException {
-
+// Erros 404 (Recurso Não Encontrado)
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
 }
