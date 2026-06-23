@@ -1,10 +1,5 @@
 package br.com.tecloja.api.controller;
 
-public class AuthController {
-
-}
-package br.com.tecloja.api.controller;
-
 import br.com.tecloja.api.config.security.JwtTokenProvider;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -17,8 +12,7 @@ import java.util.Map;
 @RequestMapping("/api/v1/auth")
 public class AuthController {
 
-    private final Authenti
-    cationManager authenticationManager;
+    private final AuthenticationManager authenticationManager;
     private final JwtTokenProvider jwtTokenProvider;
 
     public AuthController(AuthenticationManager authenticationManager, JwtTokenProvider jwtTokenProvider) {
@@ -51,3 +45,4 @@ public class AuthController {
         );
     }
 }
+    

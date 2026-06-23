@@ -1,5 +1,7 @@
 package br.com.tecloja.api.dto;
 
-public class CategoriaDTO {
-
-}
+// DTO de retorno para listagem de categorias (Dados de Saída)
+public record CategoriaDTO(
+    Long id,
+    String nome
+) {}

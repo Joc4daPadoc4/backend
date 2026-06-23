@@ -1,8 +1,3 @@
-package br.com.tecloja.api.service;
-
-public class PedidoServiceImpl {
-
-}
 package br.com.tecloja.api.service.impl;
 
 import br.com.tecloja.api.dto.ItemPedidoFormDTO;

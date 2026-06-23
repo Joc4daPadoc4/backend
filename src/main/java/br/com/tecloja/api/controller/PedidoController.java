@@ -29,4 +29,3 @@ public class PedidoController {
         return ResponseEntity.ok(pedidoService.listarPedidosPorCliente(clienteId));
     }
 }
-
